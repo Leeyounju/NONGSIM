@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>농심</title>
+    <!-- 파비콘 -->
+    <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon">
+    <!-- 외부 css 연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- 스와이퍼 css 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- 스와이퍼 js cdn -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- 외부 css했을 때 외부 js -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>      
+            <div class="box">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png"alt="로고">
+                    </a>
+                </div>
+            
+                <nav>
+                    <!-- 네비게이션 2차원 메뉴 -->
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">농심소개</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">경영이념</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">농심그룹</a></li>
+                                <li><a href="#">세계속의 농심</a></li>
+                                
+
+                            </ul>
+                        </li>
+                        <!-- 농심소개 -->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">지속가능경영</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">연구개발</a></li>
+                                <li><a href="#">환경안전</a></li>
+                                <li><a href="#">준법경영</a></li>
+                                <li><a href="#">소비자중심경영</a></li>
+                                
+
+                            </ul>
+                        </li>
+                        <!-- 지속가능경영 -->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">홍보센터</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">농시미이벤트</a></li>
+                                <li><a href="#">농심소식</a></li>
+                                <li><a href="#">농심TV</a></li>
+                                <li><a href="#">라면피디아</a></li>
+                                <li><a href="#">N서포터즈</a></li>
+                                
+
+                            </ul>
+                        </li>
+                        <!-- 홍보센터 -->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">투자정보</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">주식에관한사항</a></li>
+                                <li><a href="#">주식정보</a></li>
+                                <li><a href="#">공시정보</a></li>
+                                <li><a href="#">IR정보</a></li>
+                            
+                            </ul>
+                        </li>
+                        <!-- 투자정보 -->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">고객지원</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">상담접수</a></li>
+                                <li><a href="#">자주묻는질문</a></li>
+                                <li><a href="#">공장견학</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            
+                            </ul>
+                        </li>
+                        <!-- 투자정보 -->
+                    </ul>
+                </nav>
+                <!-- 로그인, 회원가입 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">ENGLISH</a></li>
+                    </ul>
+                </div> <!-- box -->
+            </div>
+            <!-- 서브메뉴 배경은 .box 의 형제객체로 코딩함.
+            css에서는 부모나 부모의 형제를 제어하는 선택자가 없어서 제이쿼리로 제어해야 한다 -->
+                <div class="sub_bg"></div>
+        </header>
+       
+        <section class="s1">
+            <!-- 메인비주얼 이미지 영역 4개 -->
+            <!-- 1920 꽉차게 나와야 할때 굳이 박스 필요없음 -->
+            <div class="photo">
+                <ul>
+                    
+                    <li class="main"></li>
+                    <li class="main-2"></li>
+                    <li class="main-3"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- 화면 왼쪽의 세로막대 -->
+            <div class="bar">
+                <!-- 글씨 안넣어서 생략함 -->
+            </div>
+            <!-- 설명과 번호와 play, pause 버튼 영역 -->
+            <div class="des_box">
+                <div class="des"> 
+                    <!-- 메인비주얼에 글씨 띄우기. 난 이미지로 저장함 -->
+                    <ul>
+                        <li>
+                            <a href="#">VIEW MORE</a>
+                        </li>
+                        <li>
+                            <a href="#">VIEW MORE</a>
+                        </li>
+                        <li>
+                            <a href="#">VIEW MORE</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="number">
+                    <div class="num">
+                        <ul>
+                            <li><a href="#" class="active">01</a></li>
+                            <li><a href="#">02</a></li>
+                            <li><a href="#">03</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <hr> 
+                        <a href="#">
+                            <!-- <img src="img/arrow.png" alt="화살표버튼"> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- scroll -->
+            <div class="scroll">
+                <p>SCROLL</p>
+                <div class="scroll_btn">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <!-- 라면그림 있는곳 혜택 -->
+            <div class="box">
+                <a href="#">
+                    <img src="img/nongsim.png" src="농심">                
+                </a>
+                <!-- 난 안해도 되는 곳. 그냥 해봄. 아이콘 넣고 혜택 넣는 것 -->
+                <!-- <h1>멤버십 혜택</h1> -->
+                <!-- <h4>연회비 39900 결제시 <br> 매달 무제한 무료배송 외 6가지 혜택을 받으세요.</h4> -->
+                <!-- <div class="benefit"> -->
+                    <!-- <ul> -->
+                        <!-- <li><a href="#"> -->
+                            <!-- <div class="benefit_img"> -->
+                                <!-- <img src="이미지" alt="이미지"> -->
+                            <!-- </div> -->
+                            <!-- <p>연회비 <br>100% </p> -->
+                        <!-- </a></li> -->  
+                    <!-- </ul> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <div class="more_btn">
+                <!-- <a href="#">VIEW MORE</a> -->
+            </div>    
+            
+        </section>
+        <section class="s3">
+            <div class="area">
+            <div class="product1">
+                <h1>
+                    <p>BEST BRAND</p>
+                </h1>
+                <div class="product_title">
+                    <div class="product_des">
+                        <ul>
+                            <li class="d1">
+                            <h3><span>01</span>INSTANT NOODLES</h3>
+                            <p>한국의 맛으로 세계와 소통하다</p>
+                            <a href="#"><img src="img/plus.png" alt="더하기"></a>
+                            </li>
+                            <li class="d2">
+                            <h3><span>02</span>SNACK</h3>
+                            <p>장수브랜드의 역사를 창조하다</p>
+                            <a href="#"><img src="img/plus.png" alt="더하기"></a>
+                            </li>
+                            <li class="d3">
+                            <h3><span>03</span>BEVERAGES</h3>
+                            <p>프리미엄 생수 브랜드의 미래를 열다</p>
+                            <a href="#"><img src="img/plus.png" alt="더하기"></a>
+                            </li>
+                            <li class="d4">
+                            <h3><span>04</span>IMPORT BRAND</h3>
+                            <p>세계일류의 다양한 맛을 즐기다</p>
+                            <a href="#"><img src="img/plus.png" alt="더하기"></a>
+                            </li>                               
+                        </ul>
+                    </div>
+                    <div class="product_list">
+                        <ul>
+                            <li class= "t1 active"><a href="#">INSTANT NOODLES</a></li>
+                            <li class="t2"><a href="#">SNACK</a></li>
+                            <li class="t3"><a href="#">BEVERAGES</a></li>
+                            <li class="t4"><a href="#">IMPORT BRAND</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product2">
+                <!-- 이미지 -->
+                <ul>
+                <li class="img1"><img src="img/p1.jpg" alt="라면"></li>
+                <li class="img2"><img src="img/p2.jpg" alt="새우깡"></li>
+                <li class="img3"><img src="img/p3.jpg" alt="물"></li>
+                <li class="img4"><img src="img/p4.png" alt="임폴트"></li></ul>
+            </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="area">
+                <!-- N-LIVE -->
+                <div class="new_bg"></div>
+                <div class="new_des">
+                    <!-- 제목이 오는 영역 -->
+                    <div class="new_title">
+                        <h1><span>N.LIVE</span><br>N.LIVE로 즐기는 농심이야기</h1>
+                        <hr>
+                        <a href="#">
+                            <img src="img/plus.png" alt="더하기">
+                        </a>
+                    </div>
+                </div>
+                <div class="new_list">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- 이미지 -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                            <div class="new_img">
+                                <img src="img/1.png" alt="이미지">
+                            </div>
+                            <p>1020세대 입맛 사로잡았다</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="new_img">
+                                    <img src="img/2.png" alt="이미지">
+                                </div>
+                                <p>프라이데이? 와인과 함께!</p>
+                            </a>   
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="new_img">
+                                    <img src="img/3.png" alt="이미지">
+                                </div>
+                                <p>신제품 '사천 백짬뽕'출시!</p>
+                            </a>   
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="new_img">
+                                    <img src="img/4.png" alt="이미지">
+                                </div>
+                                <p>블랙에 블랙을 더하다!</p>
+                            </a>    
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="new_img">
+                                    <img src="img/5.png" alt="이미지">
+                                </div>
+                                <p>'굴'철에는 안성'굴'탕면!</p>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="s5">
+            <div class="box">
+                <h1>국경을 뛰어넘는 농심의 맛</h1>
+                <div class="china">
+                    <ul>
+                        <li><h4>CHINA</h4></li>
+                        <li><h4>UNITED STATES</h4></li>
+                        <li><h4>JAPAN</h4></li>
+                        <li><h4>AUSTRALIA</h4></li>
+                        <li><h4>VIETNAM</h4></li>
+                        <li><h4>CANADA</h4></li>
+                    </ul>
+                    <!-- <img src="img/map.jpg" alt="지도">
+                    <h3>중국 현지인을 감동시킨 농심의 매운 맛 <span>품질에 대한 지부심을 바탕으로
+                            중국 전역에 농심의 맛 <br> 그대로 프리미엄 이미지를 뿌리내리고 있습니다.
+                        </span></h3> -->
+
+                </div>
+                <div class="map">
+                    <div class="china_map">
+                          <!-- <img src="img/map.jpg" alt="지도">   -->
+                        <h3>중국 현지인을 감동시킨 농심의 매운 맛 <span>품질에 대한 지부심을 바탕으로
+                            중국 전역에 농심의 맛 <br> 그대로 프리미엄 이미지를 뿌리내리고 있습니다.
+                        </span></h3>
+                        
+                    </div>
+                    <div class="main_map">
+                            <img src="img/main_map.png" alt="농심">
+                            <h4>2019년 중국지역 매출<br> <span>2억 7천만</span>달러 돌파</h4>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="s6">
+            <div class="mov">
+            <iframe width="1450" height="700" src="https://www.youtube.com/embed/O7R-Rdgja_A" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </section>
+        <!-- 푸터 -->
+        <footer>
+            <div class="footer_box">
+                <div class="box">
+                    <div class="footer_list">
+                        <ul>
+                            <li>
+                                <a href="#">실시간 주가정보</a>
+                            </li>
+                            <li>
+                                <a href="#">287,000</a>
+                            </li>
+                            <li>
+                                <a href="#">등락율</a>
+                            </li>
+                            <li>
+                                <a href="#">0.53%</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer_box">
+                <div class="box">
+                    <div class="footer_left">
+                        <h1>(주)농심</h1>
+                        <address>서울특별시 동작구 여의대방로 112 (신대방동)<br>
+                            사업자등록번호 118-81-03914 대표이사 박준<br>
+                            대표전화 02.820.7114 고객센터 080.023.5181 </address>
+                            <p>Copyright ©  NONGSHIM CO.,LTD. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="footer_right">
+                        <div class="footer_log">
+                            <a href="#">
+                                <img src="img/logo.png" alt="로고">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
